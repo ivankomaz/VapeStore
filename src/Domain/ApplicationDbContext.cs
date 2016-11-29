@@ -18,6 +18,9 @@ namespace Domain
                 .AddJsonFile("AppSettings.json").Build().GetSection("ConnectionString")["DefaultConnection"];
 
             optionsBuilder.UseSqlServer(connectionString);
+
+            ///asdasdasd
+            ///
         }
 
         DbSet<Manufactorer> Manufatorers;
