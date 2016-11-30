@@ -1,0 +1,20 @@
+﻿body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+}
+
+.navbar-inverse {
+    background-color: #222222;
+    border-color: #080808;
+    color: #999999;
+}
